@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_theme">#000000</color>
+    <color name="colo_000000">#000000</color>
+    <color name="colo_FFFFFF">#FFFFFF</color>
+    <color name="colo_999999">#999999</color>
+    <color name="colo_666666">#666666</color>
+    <color name="colo_333333">#333333</color>
+    <color name="colo_70_white">#B3FFFFFF</color>
+    <color name="colo_30_black">#4D000000</color>
+
+</resources>

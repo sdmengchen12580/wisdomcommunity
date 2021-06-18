@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--Appbar背景色-->
+        <item name="colorPrimary">@color/colo_FFFFFF</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimaryDark">@color/colo_000000</item>
+        <!--控制各个控件被选中时的颜色-->
+        <item name="colorAccent">@color/color_theme</item>
+        <!--<item name="android:typeface">monospace</item>-->
+    </style>
+
+    <!-- 自定义dialog的样式 -->
+    <style name="CustomDialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@drawable/dialog_custom_bg</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <!-- 首页选择弹出popupWindow的动画 -->
+    <style name="home_select_diary_anim_style">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <!--POP bottom in-->
+    <style name="popwin_anim_style" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit_anim</item>
+    </style>
+
+    <!--POP top_in-->
+    <style name="popwin_anim_style_top_in" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_enter_anim_topin</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit_anim_top_out</item>
+    </style>
+
+    <!--引导页-->
+    <style name="Theme.splash" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/img_back</item>
+    </style>
+
+    <!--沉浸-->
+    <style name="Theme.Trans" parent="AppTheme" />
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--Appbar背景色-->
+        <item name="colorPrimary">@color/colo_FFFFFF</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimaryDark">@color/colo_000000</item>
+        <!--控制各个控件被选中时的颜色-->
+        <item name="colorAccent">@color/color_theme</item>
+        <!--<item name="android:typeface">monospace</item>-->
+    </style>
+
+    <!--引导页-->
+    <style name="Theme.splash" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/img_back</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!--沉浸-->
+    <style name="Theme.Trans" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>
